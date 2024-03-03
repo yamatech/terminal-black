@@ -1,0 +1,21 @@
+{
+  "name": "terminal-black",
+  "displayName": "Terminal-Black",
+  "description": "Terminal-like black background theme.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.87.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Terminal-Black",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Terminal-Black-color-theme.json"
+      }
+    ]
+  }
+}
